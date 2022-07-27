@@ -57,7 +57,7 @@ def list_labels(project):
 #groups
 def create_subgroup(name, path, parent_id):
 	subgroup = gl.groups.create({'name': name, 'path': path, 'parent_id': parent_id})
-	pprint(subgroup.attributes)
+	#pprint(subgroup.attributes)
 
 
 #Creates N projects named prefix+number

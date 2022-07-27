@@ -26,8 +26,7 @@ while 1:
     if project:
         print("\n Current Project: "+ project.name)
     print("\nOptions:")
-    print("""
-        A: Create Project
+    print("""        
         P: Select Project (by id)
         L: List labels
         CL: Create Labels
